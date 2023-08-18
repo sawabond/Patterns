@@ -1,7 +1,7 @@
 namespace FactoryMethod.Abstract;
 
 /// <summary>
-/// Desktop document
+/// Desktop document. Product
 /// </summary>
 public abstract class DocumentBase
 {
