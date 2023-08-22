@@ -2,11 +2,11 @@ using System.Xml;
 
 namespace Adapter;
 
-public class XmlToXmlToJsonDataRetrieverAdapterAdapter : IXmlToJsonDataRetrieverAdapter
+public class XmlToXmlToJsonDataRetrieverAdapter : IXmlToJsonDataRetrieverAdapter
 {
     private readonly IXmlDataRetriever _dataRetriever;
 
-    public XmlToXmlToJsonDataRetrieverAdapterAdapter(IXmlDataRetriever dataRetriever)
+    public XmlToXmlToJsonDataRetrieverAdapter(IXmlDataRetriever dataRetriever)
     {
         _dataRetriever = dataRetriever;
     }

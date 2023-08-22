@@ -9,7 +9,7 @@ public class CallingCode
         // Error: incompatible interfaces
         // ClientCodeWhichExpectesJsonEnumerable(xmlRetriever.GetXmlDocuments());
         
-        var xmlToJsonAdapter = new XmlToXmlToJsonDataRetrieverAdapterAdapter(xmlRetriever);
+        var xmlToJsonAdapter = new XmlToXmlToJsonDataRetrieverAdapter(xmlRetriever);
         ClientCodeWhichExpectesJsonEnumerable(xmlToJsonAdapter.GetJsonData());
     }
 
